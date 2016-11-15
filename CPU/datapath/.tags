@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A1	.\RegFile.v	/^    input [4:0] A1,$/;"	p
+A3	.\RegFile.v	/^    input [4:0] A3,$/;"	p
+ALU	.\ALU.v	/^module ALU($/;"	m
+ALUOp	.\ALU.v	/^    input [3:0] ALUOp,$/;"	p
+BJPC	.\BJPC.v	/^module BJPC($/;"	m
+EXT	.\EXT.v	/^module EXT($/;"	m
+GPR	.\RegFile.v	/^	reg [31:0] GPR[31:0];$/;"	r
+JAddr	.\BJPC.v	/^    input [31:0] JAddr$/;"	p
+PC	.\PC.v	/^module PC($/;"	m
+PCin	.\BJPC.v	/^    input [31:0] PCin,$/;"	p
+PCout	.\PC.v	/^	reg [31:0]PCout;$/;"	r
+PCplus8	.\BJPC.v	/^	 output [31:0] PCplus8,$/;"	p
+RD2	.\RegFile.v	/^    output [31:0] RD2$/;"	p
+RegFile	.\RegFile.v	/^module RegFile($/;"	m
+SrcA	.\ALU.v	/^    input [31:0] SrcA,$/;"	p
+addr	.\im.v	/^    input [9:2] addr,$/;"	p
+clk	.\PC.v	/^    input clk,$/;"	p
+clk	.\RegFile.v	/^    input clk,$/;"	p
+clk	.\dm.v	/^    input clk,$/;"	p
+din	.\dm.v	/^    input [31:0] din,$/;"	p
+dm	.\dm.v	/^	reg [31:0] dm[1023:0];$/;"	r
+dm_4k	.\dm.v	/^module dm_4k($/;"	m
+dout	.\dm.v	/^    output [31:0] dout$/;"	p
+i	.\RegFile.v	/^	integer i;$/;"	r
+i	.\dm.v	/^	integer i;$/;"	r
+im	.\im.v	/^	reg [31:0] im[255:0];$/;"	r
+im_1k	.\im.v	/^module im_1k($/;"	m
+imm16	.\EXT.v	/^    input [15:0] imm16,$/;"	p
+imm32	.\EXT.v	/^    output [31:0] imm32$/;"	p
+input	.\ALU.v	/^    input [31:0] SrcB,$/;"	p
+input	.\BJPC.v	/^    input [31:0] BOffset,$/;"	p
+input	.\BJPC.v	/^    input branch,$/;"	p
+input	.\EXT.v	/^    input [1:0] EXTOp,$/;"	p
+input	.\PC.v	/^    input rst,$/;"	p
+input	.\RegFile.v	/^    input [31:0] WD,$/;"	p
+input	.\RegFile.v	/^    input [4:0] A2,$/;"	p
+input	.\RegFile.v	/^    input rst,$/;"	p
+input	.\dm.v	/^    input [11:2] addr,$/;"	p
+input	.\dm.v	/^    input we,$/;"	p
+jump	.\BJPC.v	/^    input jump,$/;"	p
+nextPC	.\PC.v	/^    input [31:0] nextPC,$/;"	p
+output	.\ALU.v	/^    output [31:0] result$/;"	p
+output	.\BJPC.v	/^    output [31:0] PCout,$/;"	p
+output	.\PC.v	/^    output [31:0] currentPC$/;"	p
+output	.\RegFile.v	/^    output [31:0] RD1,$/;"	p
+output	.\im.v	/^    output [31:0] dout$/;"	p
+we	.\RegFile.v	/^    input we,$/;"	p

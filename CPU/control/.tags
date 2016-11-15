@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALUOp	.\ctrl.v	/^	output [3:0] ALUOp;$/;"	p
+ALUSrc	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+Beq	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+Controller	.\ctrl.v	/^module Controller(op,funct,RegDst,RegWrite,ALUSrc,ALUOp,EXTOp,$/;"	m
+EXTOp	.\ctrl.v	/^	output [1:0] RegDst,EXTOp;$/;"	p
+HazardUnit	.\HazardUnit.v	/^module HazardUnit(\/*autoport*\/$/;"	m
+JumpSrc	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+MemWrite	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+R	.\ctrl.v	/^	wire R,addu,subu,jr;$/;"	n
+RFA3_E	.\HazardUnit.v	/^	input [4:0] RFA3_E,RFA3_M,RFA3_W;$/;"	p
+RFA3_M	.\HazardUnit.v	/^	input [4:0] RFA3_E,RFA3_M,RFA3_W;$/;"	p
+RFA3_W	.\HazardUnit.v	/^	input [4:0] RFA3_E,RFA3_M,RFA3_W;$/;"	p
+RFWD_E	.\HazardUnit.v	/^	input [31:0] RFWD_E,RFWD_M,RFWD_W;$/;"	p
+RFWD_M	.\HazardUnit.v	/^	input [31:0] RFWD_E,RFWD_M,RFWD_W;$/;"	p
+RFWD_W	.\HazardUnit.v	/^	input [31:0] RFWD_E,RFWD_M,RFWD_W;$/;"	p
+RegDst	.\ctrl.v	/^	output [1:0] RegDst,EXTOp;$/;"	p
+RegWrite	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+RegWriteSrcE	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+RegWriteSrcE_E	.\HazardUnit.v	/^	input RegWriteSrcE_E,RegWriteSrcM_M;$/;"	p
+RegWriteSrcM	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+RegWriteSrcM_M	.\HazardUnit.v	/^	input RegWriteSrcE_E,RegWriteSrcM_M;$/;"	p
+RegWrite_E	.\HazardUnit.v	/^	input RegWrite_E,RegWrite_M,RegWrite_W;$/;"	p
+RegWrite_M	.\HazardUnit.v	/^	input RegWrite_E,RegWrite_M,RegWrite_W;$/;"	p
+RegWrite_W	.\HazardUnit.v	/^	input RegWrite_E,RegWrite_M,RegWrite_W;$/;"	p
+addu	.\ctrl.v	/^	wire R,addu,subu,jr;$/;"	n
+beq	.\ctrl.v	/^	wire ori,lw,sw,beq,lui,jal;$/;"	n
+funct	.\ctrl.v	/^	input [5:0] op,funct;$/;"	p
+jal	.\ctrl.v	/^	wire ori,lw,sw,beq,lui,jal;$/;"	n
+jr	.\ctrl.v	/^	wire R,addu,subu,jr;$/;"	n
+jump	.\ctrl.v	/^	output RegWrite,ALUSrc,MemWrite,Beq,jump,JumpSrc,RegWriteSrcE,RegWriteSrcM;$/;"	p
+lui	.\ctrl.v	/^	wire ori,lw,sw,beq,lui,jal;$/;"	n
+lw	.\ctrl.v	/^	wire ori,lw,sw,beq,lui,jal;$/;"	n
+op	.\ctrl.v	/^	input [5:0] op,funct;$/;"	p
+ori	.\ctrl.v	/^	wire ori,lw,sw,beq,lui,jal;$/;"	n
+reg	.\HazardUnit.v	/^	output reg Forward_rt_M;$/;"	p
+reg	.\HazardUnit.v	/^	output reg [1:0] Forward_rs_D,Forward_rs_E;$/;"	p
+reg	.\HazardUnit.v	/^	output reg [1:0] Forward_rt_D,Forward_rt_E;$/;"	p
+rs_D	.\HazardUnit.v	/^	input [4:0] rs_D,rs_E;$/;"	p
+rs_E	.\HazardUnit.v	/^	input [4:0] rs_D,rs_E;$/;"	p
+rt_D	.\HazardUnit.v	/^	input [4:0] rt_D,rt_E,rt_M;$/;"	p
+rt_E	.\HazardUnit.v	/^	input [4:0] rt_D,rt_E,rt_M;$/;"	p
+rt_M	.\HazardUnit.v	/^	input [4:0] rt_D,rt_E,rt_M;$/;"	p
+stall	.\HazardUnit.v	/^	reg stall;$/;"	r
+subu	.\ctrl.v	/^	wire R,addu,subu,jr;$/;"	n
+sw	.\ctrl.v	/^	wire ori,lw,sw,beq,lui,jal;$/;"	n

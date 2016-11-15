@@ -1,0 +1,67 @@
+ALUResult_in	PR_EXE_MEM.v	/^	input [31:0]ALUResult_in;$/;"	p
+MemWrite_in	PR_EXE_MEM.v	/^	input MemWrite_in;$/;"	p
+PCplus8_in	PR_EXE_MEM.v	/^	input [31:0]PCplus8_in;$/;"	p
+PR_EXE_MEM	PR_EXE_MEM.v	/^module PR_EXE_MEM(clk,ALUResult_in,RD2_in,RFA3_in,PCplus8_in,$/;"	m
+RD2_in	PR_EXE_MEM.v	/^	input [31:0]RD2_in;$/;"	p
+RFA3_in	PR_EXE_MEM.v	/^	input [4:0]RFA3_in;$/;"	p
+RegWriteSrc_in	PR_EXE_MEM.v	/^	input [1:0] RegWriteSrc_in;$/;"	p
+RegWrite_in	PR_EXE_MEM.v	/^	input RegWrite_in;$/;"	p
+clk	PR_EXE_MEM.v	/^	input clk;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg MemWrite_out;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg RegWrite_out;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg [1:0] RegWriteSrc_out;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg [31:0]ALUResult_out;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg [31:0]PCplus8_out;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg [31:0]RD2_out;$/;"	p
+reg	PR_EXE_MEM.v	/^	output reg [4:0]RFA3_out;$/;"	p
+ALUOp_in	PR_ID_EXE.v	/^	input [3:0] ALUOp_in;$/;"	p
+ALUSrc_in	PR_ID_EXE.v	/^	input ALUSrc_in;$/;"	p
+MemWrite_in	PR_ID_EXE.v	/^	input MemWrite_in;$/;"	p
+PCplus8_in	PR_ID_EXE.v	/^	input [31:0] PCplus8_in;$/;"	p
+PR_ID_EXE	PR_ID_EXE.v	/^module PR_ID_EXE(clk,RD1_in,RD2_in,imm32_in,rs_in,rt_in,rd_in,PCplus8_in,$/;"	m
+RD1_in	PR_ID_EXE.v	/^	input [31:0] RD1_in,RD2_in,imm32_in;$/;"	p
+RD2_in	PR_ID_EXE.v	/^	input [31:0] RD1_in,RD2_in,imm32_in;$/;"	p
+RegDst_in	PR_ID_EXE.v	/^	input [1:0] RegDst_in;$/;"	p
+RegWriteSrc_in	PR_ID_EXE.v	/^	input [1:0] RegWriteSrc_in;$/;"	p
+RegWrite_in	PR_ID_EXE.v	/^	input RegWrite_in;$/;"	p
+clk	PR_ID_EXE.v	/^	input clk;$/;"	p
+imm32_in	PR_ID_EXE.v	/^	input [31:0] RD1_in,RD2_in,imm32_in;$/;"	p
+rd_in	PR_ID_EXE.v	/^	input [4:0] rs_in,rt_in,rd_in;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg ALUSrc_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg MemWrite_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg RegWrite_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg [1:0] RegDst_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg [1:0] RegWriteSrc_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg [31:0] PCplus8_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg [31:0] RD1_out,RD2_out,imm32_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg [3:0] ALUOp_out;$/;"	p
+reg	PR_ID_EXE.v	/^	output reg [4:0] rs_out,rt_out,rd_out;$/;"	p
+rs_in	PR_ID_EXE.v	/^	input [4:0] rs_in,rt_in,rd_in;$/;"	p
+rt_in	PR_ID_EXE.v	/^	input [4:0] rs_in,rt_in,rd_in;$/;"	p
+Instr_in	PR_IF_ID.v	/^	input [31:0]Instr_in;$/;"	p
+PC_in	PR_IF_ID.v	/^	input [31:0]PC_in;$/;"	p
+PR_IF_ID	PR_IF_ID.v	/^module PR_IF_ID(clk,clr,Instr_in,PC_in,Instr_out,PC_out$/;"	m
+clk	PR_IF_ID.v	/^	input clk;$/;"	p
+clr	PR_IF_ID.v	/^	input clr;$/;"	p
+reg	PR_IF_ID.v	/^	output reg [31:0]Instr_out;$/;"	p
+reg	PR_IF_ID.v	/^	output reg [31:0]PC_out;$/;"	p
+ALUResult_in	PR_MEM_WB.v	/^	input [31:0] ALUResult_in;$/;"	p
+DMRD_in	PR_MEM_WB.v	/^	input [31:0] DMRD_in;$/;"	p
+PCplus8_in	PR_MEM_WB.v	/^	input [31:0] PCplus8_in;$/;"	p
+PR_MEM_WB	PR_MEM_WB.v	/^module PR_MEM_WB(clk,ALUResult_in,DMRD_in,RFA3_in,PCplus8_in,$/;"	m
+RFA3_in	PR_MEM_WB.v	/^	input [4:0] RFA3_in;$/;"	p
+RegWriteSrc_in	PR_MEM_WB.v	/^	input [1:0] RegWriteSrc_in;$/;"	p
+RegWrite_in	PR_MEM_WB.v	/^	input RegWrite_in;$/;"	p
+clk	PR_MEM_WB.v	/^	input clk;$/;"	p
+reg	PR_MEM_WB.v	/^	output reg RegWrite_out;$/;"	p
+reg	PR_MEM_WB.v	/^	output reg [1:0] RegWriteSrc_out;$/;"	p
+reg	PR_MEM_WB.v	/^	output reg [31:0] ALUResult_out;$/;"	p
+reg	PR_MEM_WB.v	/^	output reg [31:0] DMRD_out;$/;"	p
+reg	PR_MEM_WB.v	/^	output reg [31:0] PCplus8_out;$/;"	p
+reg	PR_MEM_WB.v	/^	output reg [4:0] RFA3_out;$/;"	p
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
